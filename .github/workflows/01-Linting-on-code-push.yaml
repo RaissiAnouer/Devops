@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout
-              uses: http://github.com/actions/checkout@v5
+              uses: https://github.com/actions/checkout@v5
           
             - name: super-linter
               uses: super-linter/super-linter@v8.2.1
