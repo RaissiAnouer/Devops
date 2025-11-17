@@ -8,6 +8,10 @@ on:
 jobs:
     code_Checkout_linting:
         runs-on: ubuntu-latest
+        permissions:
+          contents: read
+          packages: read
+          statuses: write
         steps:
             - name: checkout
               uses: actions/checkout@v5
