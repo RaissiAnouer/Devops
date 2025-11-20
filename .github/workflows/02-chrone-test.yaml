@@ -1,7 +1,7 @@
 name: chrone
 on:
     schedule:
-        - cron: 5 * * * *
+        - cron: "*/2 * * * *"
 
 jobs:
     hello_every_5_min:
