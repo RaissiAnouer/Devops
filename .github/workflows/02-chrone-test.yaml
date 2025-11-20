@@ -1,0 +1,17 @@
+name: chrone
+on:
+    push:
+        branches:
+            - main
+    schedule:
+        - cron: 5 * * * *
+
+jobs:
+    hello_every_5_min:
+        runs-on: ubuntu-latest
+        steps:
+            - name : hello
+              run: echo "hello"
+
+
+        
